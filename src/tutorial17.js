@@ -14,6 +14,7 @@ console.log(var4);
 console.log("***********************");
 var gender2 = employee[2]; //one way to skip initial values
 console.log(gender2);
+console.log("***********************");
 var var5 = employee[0], var6 = employee[1], var7 = employee[2], _a = employee[3], var8 = _a === void 0 ? "any default value" : _a; //providing default values
 console.log(var8);
 //# sourceMappingURL=tutorial17.js.map
