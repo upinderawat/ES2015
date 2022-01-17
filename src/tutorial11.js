@@ -17,5 +17,6 @@ displayColors("one color", "Red");
 displayColors("Two colors", "Red", "Green");
 displayColors("Three colors", "Red", "Green", "Blue");
 var arrayOfColors = ["Red", "Green", "Blue", "White", "Black"];
+console.log("use of Spread Operator");
 displayColors.apply(void 0, __spreadArray(["froma array"], arrayOfColors));
 //# sourceMappingURL=tutorial11.js.map
