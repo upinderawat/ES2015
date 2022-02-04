@@ -1,6 +1,4 @@
-var getValue = function (value, bonus) {
-    if (value === void 0) { value = 10; }
-    if (bonus === void 0) { bonus = 20; }
+let getValue = function (value = 10, bonus = 20) {
     console.log(value, bonus);
 };
 getValue();

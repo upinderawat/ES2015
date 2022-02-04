@@ -1,10 +1,9 @@
-var for1 = function () {
-    var colors = ["Red", "Greeen", "Yellow"];
-    for (var _i = 0, colors_1 = colors; _i < colors_1.length; _i++) {
-        var iterator = colors_1[_i];
+let for1 = function () {
+    let colors = ["Red", "Greeen", "Yellow"];
+    for (const iterator of colors) {
         console.log(iterator);
     }
-    var letters = "abcdefghijklmnopqrstuvwxyz";
+    let letters = "abcdefghijklmnopqrstuvwxyz";
 };
 for1();
 //# sourceMappingURL=tutorial20.js.map
